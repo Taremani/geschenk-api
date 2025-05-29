@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-/*
+
 const gifts = [
   "einen Apfel 🍎",
   "einen Keks 🍪",
@@ -12,7 +12,7 @@ const gifts = [
   "einen Donut 🍩",
   "eine Banane 🍌"
 ];
-*/
+
 
 app.get("/", (req, res) => {
   const user = req.query.user || "jemand";
