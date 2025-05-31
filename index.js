@@ -23,7 +23,7 @@ const gifts = [
   "eine Besichtigungstour mit Mario zum Freimaurer-Bunker.",
   "eine Runde Streicheleinheiten mit Dolly ^^",
   "ein Funko-Pop. Ich hoffe es ist Ariel.",
-  "eine Versptätung. Was eine Stanzi.",
+  "eine Verspätung. Was eine Stanzi.",
   "ein Tagesticket für den Fitinn. Lass dich nicht ablenken ^^",
   "einen Crush. Ich hoffe der Therapeut erfährt davon nichts.",
   "eine Möglichkeit zum Modeln. Dein Termin beginnt in einer Stunde.",
@@ -32,16 +32,21 @@ const gifts = [
   "einen Klaps auf den Po. Da steht jemand auf dich <3",
   "eine saubere Küche. Die geilen Maids haben wohl wieder zugeschlagen :)",
   "einen neuen Bot für Twitch. Jetzt hat Sophie wieder was zum Verlieben.",
-  "ein neues Outfit für das VTuber-Model. Nichts so schön wie das von Susi.",
+  "ein neues Outfit für ein VTuber-Model. Natürlich nicht so schön wie das von Susi.",
   "ein bisschen Liebe. Kann man das auch in Prozenten ausdrücken?",
   "einen rechtzeitigen Bus. Ich hätte fast angefangen zu weinen :(",
   "ein süßes Lächeln. Ich glaube meine Knie zittern.",
-  "ein nettes Kompliment. Ihre Mutter kann das aber besser.",
+  "ein nettes Kompliment (aber Mom kann das noch besser)",
   "Bikinibilder von Yamila. Die sind selten.",
+  "13 Stunden Schlaf. Schön sein ist nicht leicht gemacht.",
+  "Liebe. Einfach nur Liebe. Kein Meme, einfach nur Liebe.",
+  "das Gefühl nicht alleine in diesem Universum zu sein.",
+  "ein halbes Knoppers. Nichtmal ein ganzes. Richtiges Einzelkind.",
+  "ein Instagram-Reel. Sei nicht so schüchtern und sende eins zurück.",
 ];
 
 
-app.get("/", (req, res) => {
+app.get("/geschenk", (req, res) => {
   const user = req.query.user || "jemand";
   const target = req.query.target || "jemand anderes";
   const gift = gifts[Math.floor(Math.random() * gifts.length)];
