@@ -47,7 +47,13 @@ const gifts = [
 
 app.get("/geschenk", (req, res) => {
   const user = req.query.user || "jemand";
-  const target = req.query.target || "jemand anderes";
+  let target = req.query.target || "jemand anderes";
+
+  // Entferne führendes @, falls vorhanden
+  if (target.startsWith("@")) {
+    target = target.substring(1);
+  }
+
   const gift = gifts[Math.floor(Math.random() * gifts.length)];
   res.send(`${user} schenkt ${target} ${gift}`);
 });
