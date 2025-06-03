@@ -1,10 +1,7 @@
-const express = require("express");
-const app = express();
-
+const express = require("express"); const app = express();
 
 const gifts = [
   "ein Maid-Outfit. Fang besser an putzen!",
-  "einen Keks. Den kannst du mit dem ganzen Freundeskreis teilen.",
   "eine Prinzessinen-Misterybox (es ist Yasmin drin).",
   "eine Chai-Latte.",
   "ein neues Outfit <3",
@@ -42,8 +39,19 @@ const gifts = [
   "das Gefühl nicht alleine in diesem Universum zu sein.",
   "ein halbes Knoppers. Nichtmal ein ganzes. Richtiges Einzelkind.",
   "ein Instagram-Reel. Sei nicht so schüchtern und sende eins zurück.",
+  "eine Krosse-Krabbe-Pizza. Natürlich ohne Schwammerl und Oliven ^^",
+  "einen Döner von Ferhat (mit alles ohne scharf)",
+  "eine eigene Sportplaylist. Ab ins Fitnessstudio mit dir jetzt.",
+  "ein offenes Ohr, falls dir mal was am Herzen liegt.",
+  "einen Track wo der Sänger gleich am Anfang AUSRASTET!!!",
+  "einen Eimer mit Farbe. SEI BLOß VORSICHTIG!!!",
+  "eine Packung Pistazien. Bitte nicht auf das Ipad stellen XD.",
+  "einen Wingsuit. Oder soll das eine Jacke sein?",
+  "einen Anruf. Kira on the phone.",
+  "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen."
 ];
 
+//  git commit -am "text angepasst" && git push
 
 app.get("/geschenk", (req, res) => {
   const user = req.query.user || "jemand";
