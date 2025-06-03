@@ -49,13 +49,19 @@ const gifts = [
   "einen Wingsuit. Oder soll das eine Jacke sein?",
   "einen Anruf. Kira on the phone.",
   "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen.",
-  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
-  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
-  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
-  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
-  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
-  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
-  "einen sophorKorb. Wärst du mal nicht so frech gewesen."
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb . Wärst du mal nicht so frech gewesen."
 ];
 
 //  git commit -am "text angepasst" && git push
