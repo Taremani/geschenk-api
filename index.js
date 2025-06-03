@@ -11,7 +11,7 @@ const gifts = [
   "eine Limousine. Erinnert mich irgendwie an Oma...",
   "einen Valorant-Skin. Hoffentlich ist es Star Guardian.",
   "eine Kopie vom Hit-Film WAMPE. Du Glückspilz.",
-  "einen Korb. Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
   "einen Anti-Korb. Bitte nehmt euch ein Zimmer, das hält ja keiner aus.",
   "ein Konzert-Ticket für bbno$. Viel Spaß ihr kleinen Freaks.",
   "ein grünes Red Bull. Hier weiß jemand was gut ist :)",
@@ -48,7 +48,14 @@ const gifts = [
   "eine Packung Pistazien. Bitte nicht auf das Ipad stellen XD.",
   "einen Wingsuit. Oder soll das eine Jacke sein?",
   "einen Anruf. Kira on the phone.",
-  "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen."
+  "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen.",
+  "einen sophorKorb. Wärst du mal nicht so frech gewesen."
 ];
 
 //  git commit -am "text angepasst" && git push
