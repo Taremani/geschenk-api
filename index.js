@@ -4,13 +4,13 @@ const gifts = [
   "ein Maid-Outfit. Fang besser an zu putzen!",
   "eine Prinzessinen-Mysterybox (es ist Yasmin drin).",
   "eine Chai-Latte sophorKaffee ",
-  "ein neues Outfit sophorHYPE ",
+  "ein neues Outfit sophorKaffee ",
   "gar nichts. Wärst du mal brav gewesen sophorKorb ",
   "ein Kamasutra. Hoffentlich seid ihr beide gelenkig.",
   "ein bisschen Majoran, damit das Leben würzig bleibt.",
   "eine Limousine. Erinnert mich irgendwie an Oma...",
   "einen Valorant-Skin. Hoffentlich ist es Star Guardian.",
-  "eine Kopie vom Hit-Film WAMPE. Du Glückspilz sophorHYPE ",
+  "eine Kopie vom Hit-Film WAMPE. Du Glückspilz sophorKaffee ",
   "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
   "einen sophorAntiKorb . Bitte nehmt euch ein Zimmer, das hält ja keiner aus.",
   "ein Konzert-Ticket für bbno$. Viel Spaß ihr kleinen Freaks.",
@@ -25,8 +25,8 @@ const gifts = [
   "eine Möglichkeit zum Modeln. Dein Termin beginnt in einer Stunde.",
   "einen neuen Gaming-PC. Der alte war schon in die Jahre gekommen.",
   "ein Ticket für die Comicon. Da rennt irgendwo auch eine Sage herum.",
-  "einen Klaps auf den Po. Da steht jemand auf dich <3",
-  "eine saubere Küche. Die geilen Maids haben wohl wieder zugeschlagen sophorNice ",
+  "einen Klaps auf den Po. Da steht jemand auf dich <3 ",
+  "eine saubere Küche. Die geilen Maids haben wohl wieder zugeschlagen sophorKaffee ",
   "einen neuen Bot für Twitch. Jetzt hat Sophie wieder was zum Verlieben.",
   "ein neues Outfit für ein VTuber-Model. Natürlich nicht so schön wie das von Susi.",
   "ein bisschen Liebe. Kann man das auch in Prozenten ausdrücken?",
@@ -48,15 +48,15 @@ const gifts = [
   "eine Packung Pistazien. Bitte nicht auf das Ipad stellen XD.",
   "einen Wingsuit. Oder soll das eine Jacke sein?",
   "einen Anruf. Kira on the phone.",
-  "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen sophorHYPE ",
+  "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen sophorKaffee ",
   "ein kleines Tänzchen. Ich hoffe du kannst Tango tanzen ^^",
   "eine witzige Nachricht. Meine Backen tun schon langsam weg XD",
   "einen Bussibär. Bei deinem Anblick wird der zum Bergsteiger.",
-  "ein Toffifee du kleiner Hase <3",
-  "ein kleines Gedicht. Richter Bad-Poet-Boy sophorNice ",
+  "ein Toffifee du kleiner Hase <3 ",
+  "ein kleines Gedicht. Richter Bad-Poet-Boy <3 ",
   ""
 ];
-const momGift = "Liebe von der coolsten Mom überhaupt sophorHYPE <3";
+const momGift = "Liebe von der coolsten Mom überhaupt sophorKaffee ";
 
 //  git commit -am "text angepasst" && git push
 
@@ -70,7 +70,7 @@ app.get("/geschenk", (req, res) => {
   }
 
   const gift = gifts[Math.floor(Math.random() * gifts.length)];
-  if (["sandy_sunshine68", "taremani04"].includes(user)) {
+  if (["sandy_sunshine68", "sandy_sunshine", "sandysunshine68"].includes(user)) {
   res.send(`${user} schenkt ${target} ${momGift}`);
   }
   else{
