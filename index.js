@@ -70,7 +70,7 @@ app.get("/geschenk", (req, res) => {
   }
 
   const gift = gifts[Math.floor(Math.random() * gifts.length)];
-  if (user == (("sandy_sunshine68") || "taremani04")) {
+  if (["sandy_sunshine68", "taremani04"].includes(user)) {
   res.send(`${user} schenkt ${target} ${momGift}`);
   }
   else{
