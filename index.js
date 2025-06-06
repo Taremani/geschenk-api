@@ -50,11 +50,10 @@ const gifts = [
   "einen Anruf. Kira on the phone.",
   "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen sophorKaffee ",
   "ein kleines Tänzchen. Ich hoffe du kannst Tango tanzen ^^",
-  "eine witzige Nachricht. Meine Backen tun schon langsam weg XD",
+  "eine witzige Nachricht. Meine Backen tun schon langsam weh XD",
   "einen Bussibär. Bei deinem Anblick wird der zum Bergsteiger.",
   "ein Toffifee du kleiner Hase <3 ",
-  "ein kleines Gedicht. Richter Bad-Poet-Boy <3 ",
-  ""
+  "ein kleines Gedicht. Richtiger Bad-Poet-Boy <3 "
 ];
 const momGift = "Liebe von der coolsten Mom überhaupt sophorKaffee ";
 
