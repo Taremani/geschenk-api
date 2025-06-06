@@ -57,7 +57,7 @@ const gifts = [
   ""
 ];
 
-const momGift = "Liebe von der coolsten Mom überhaupt sophorHYPE "
+const momGift = "Liebe von der coolsten Mom überhaupt sophorHYPE ";
 
 //  git commit -am "text angepasst" && git push
 
@@ -71,7 +71,7 @@ app.get("/geschenk", (req, res) => {
   }
 
   const gift = gifts[Math.floor(Math.random() * gifts.length)];
-  if(user=="taremani04"){
+  if (user=="taremani04") {
   res.send(`${user} schenkt ${target} ${momGift}`);
   }
   else{
