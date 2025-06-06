@@ -1,16 +1,16 @@
 const express = require("express"); const app = express();
 
 const gifts = [
-  "ein Maid-Outfit. Fang besser an putzen!",
+  "ein Maid-Outfit. Fang besser an zu putzen!",
   "eine Prinzessinen-Mysterybox (es ist Yasmin drin).",
   "eine Chai-Latte sophorKaffee ",
-  "ein neues Outfit sophorHype ",
+  "ein neues Outfit sophorHYPE ",
   "gar nichts. Wärst du mal brav gewesen sophorKorb ",
   "ein Kamasutra. Hoffentlich seid ihr beide gelenkig.",
   "ein bisschen Majoran, damit das Leben würzig bleibt.",
   "eine Limousine. Erinnert mich irgendwie an Oma...",
   "einen Valorant-Skin. Hoffentlich ist es Star Guardian.",
-  "eine Kopie vom Hit-Film WAMPE. Du Glückspilz sophorHype ",
+  "eine Kopie vom Hit-Film WAMPE. Du Glückspilz sophorHYPE ",
   "einen sophorKorb . Wärst du mal nicht so frech gewesen.",
   "einen sophorAntiKorb . Bitte nehmt euch ein Zimmer, das hält ja keiner aus.",
   "ein Konzert-Ticket für bbno$. Viel Spaß ihr kleinen Freaks.",
@@ -48,8 +48,16 @@ const gifts = [
   "eine Packung Pistazien. Bitte nicht auf das Ipad stellen XD.",
   "einen Wingsuit. Oder soll das eine Jacke sein?",
   "einen Anruf. Kira on the phone.",
-  "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen sophorHype"
+  "einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen sophorHYPE ",
+  "ein kleines Tänzchen. Ich hoffe du kannst Tango tanzen ^^",
+  "eine witzige Nachricht. Meine Backen tun schon langsam weg XD",
+  "einen Bussibär. Bei deinem Anblick wird der zum Bergsteiger.",
+  "ein Toffifee du kleiner Hase <3",
+  "ein kleines Gedicht. Richter Bad-Poet-Boy sophorNice ",
+  ""
 ];
+
+const momGift = "Liebe von der coolsten Mom überhaupt sophorHYPE "
 
 //  git commit -am "text angepasst" && git push
 
@@ -63,7 +71,12 @@ app.get("/geschenk", (req, res) => {
   }
 
   const gift = gifts[Math.floor(Math.random() * gifts.length)];
+  if(user=="taremani04"){
+  res.send(`${user} schenkt ${target} ${momGift}`);
+  }
+  else{
   res.send(`${user} schenkt ${target} ${gift}`);
+  }
 });
 
 app.listen(3000, () => {
