@@ -53,7 +53,13 @@ const gifts = [
   "eine witzige Nachricht. Meine Backen tun schon langsam weh XD",
   "einen Bussibär. Bei deinem Anblick wird der zum Bergsteiger.",
   "ein Toffifee du kleiner Hase <3 ",
-  "ein kleines Gedicht. Richtiger Bad-Poet-Boy <3 "
+  "ein kleines Gedicht. Richtiger Bad-Poet-Boy <3 ",
+  "ein kurzes coding adventure. 15 minuten, nicht mehr.",
+  "einen Tom... ich meine Patrick?",
+  "ein bisschen zu viel Aufmerksamkeit. Da hängt doch jemand mit dem Feldstecher im Baum...",
+  "schenkt dir eine Reise in die Berge, ich hoffe du hast keine Höhenangst ;) ",
+  "eine kurze Voicemail mit deiner schönen Stimme sophorSpongebobLOVE ",
+  "einen schüchternen Blick. Da steht jemand auf dich du qt-3.14"
 ];
 const momGift = "Liebe von der coolsten Mom überhaupt sophorKaffee ";
 
