@@ -57,7 +57,7 @@ const gifts = [
   "ein kurzes coding adventure. 15 minuten, nicht mehr.",
   "einen Tom... ich meine Patrick?",
   "ein bisschen zu viel Aufmerksamkeit. Da hängt doch jemand mit dem Feldstecher im Baum...",
-  "eine Reise in die Berge, ich hoffe du hast keine Höhenangst ;) ",
+  "eine Reise in dieaw Berge, ich hoffe du hast keine Höhenangst ;) ",
   "eine kurze Voicemail mit deiner schönen Stimme sophorSpongebobLOVE ",
   "einen schüchternen Blick. Da steht jemand auf dich du qt-3.14",
   "eine Packung Smarties. Die perfekte Mischung aus süß und crazy ;) ",
@@ -66,7 +66,8 @@ const gifts = [
   "eine Runde R.E.P.O weil ihr zusammen jedes Monster besiegen könnt.",
   "ein Bussi aufs Nussi <3 ",
   "einen Spaziergang zu einem Ort wo der Flieder blüht und die Vögel zwitschern.",
-  "einen gemeinsamen JAM. Lass uns bis zum Rest unseres Lebens dazu viben sophorSpongebobLOVE "
+  "einen gemeinsamen JAM. Lass uns für den Rest unseres Lebens dazu viben sophorSpongebobLOVE ",
+  "ein paar Legosteine und eine Tube Gleitcreme, damit die Steine besser flutsche ;) "
 ];
 const momGift = "Liebe von der coolsten Mom überhaupt sophorKaffee ";
 
