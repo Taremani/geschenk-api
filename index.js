@@ -3,7 +3,7 @@ const express = require("express"); const app = express();
 const gifts = [
   //"ein Maid-Outfit. Fang besser an zu putzen!",
   //"eine Prinzessinen-Mysterybox (es ist Yasmin drin).",
-  "eine Chai-Latte sophorKaffee ",
+  //"eine Chai-Latte sophorKaffee ",
   //"ein neues Outfit sophorKaffee ",
   //"gar nichts. Wärst du mal brav gewesen sophorKorb ",
   //"ein Kamasutra. Hoffentlich seid ihr beide gelenkig.",
@@ -13,7 +13,7 @@ const gifts = [
   "eine Kopie vom Hit-Film WAMPE. Du Glückspilz sophorKaffee ",
   //"einen sophorKorb . Wärst du mal nicht so frech gewesen.",
   "einen sophorAntiKorb . Bitte nehmt euch ein Zimmer, das hält ja keiner aus.",
-  "ein Konzert-Ticket für bbno$. Viel Spaß ihr kleinen Freaks.",
+  //"ein Konzert-Ticket für bbno$. Viel Spaß ihr kleinen Freaks.",
   "ein grünes Red Bull. Hier weiß jemand was gut ist :)",
   "einen Gutschein für den Friseur. Jetzt kannst du die Person mit den 2. schönsten Haaren sein.",
   //"eine Besichtigungstour mit Mario zum Freimaurer-Bunker.",
@@ -43,10 +43,10 @@ const gifts = [
   "einen Döner von Ferhat (mit alles ohne scharf).",
   //"eine eigene Sportplaylist. Ab ins Fitnessstudio mit dir jetzt.",
   "ein offenes Ohr, falls dir mal was am Herzen liegt.",
-  "einen Track wo der Sänger gleich am Anfang AUSRASTET!!!",
-  "einen Eimer mit Farbe. SEI BLOß VORSICHTIG!!!",
+  //"einen Track wo der Sänger gleich am Anfang AUSRASTET!!!",
+  //"einen Eimer mit Farbe. SEI BLOß VORSICHTIG!!!",
   "eine Packung Pistazien. Bitte nicht auf das Ipad stellen XD.",
-  "einen Wingsuit. Oder soll das eine Jacke sein?",
+  //"einen Wingsuit. Oder soll das eine Jacke sein?",
   "einen Anruf. Kira on the phone.",
   //"einen City-Roller. Damit kannst du bei jeder scheiß Party vorrollen sophorKaffee ",
   "ein kleines Tänzchen. Ich hoffe du kannst Tango tanzen ^^",
@@ -57,7 +57,7 @@ const gifts = [
   "ein kurzes coding adventure. 15 minuten, nicht mehr.",
   "einen Tom... ich meine Patrick?",
   "ein bisschen zu viel Aufmerksamkeit. Da hängt doch jemand mit dem Feldstecher im Baum...",
-  "eine Reise in dieaw Berge, ich hoffe du hast keine Höhenangst ;) ",
+  "eine Reise in die Berge, ich hoffe du hast keine Höhenangst ;) ",
   "eine kurze Voicemail mit deiner schönen Stimme sophorSpongebobLOVE ",
   "einen schüchternen Blick. Da steht jemand auf dich du qt-3.14",
   "eine Packung Smarties. Die perfekte Mischung aus süß und crazy ;) ",
@@ -81,7 +81,9 @@ const gifts = [
   "einen Spaziergang durch den Park. Hast du Bock?",
   "ein sexy T-Shirt in dem du richtig gut aussehn wirst!!11!!1!",
   "ein bisschen Zeit um zu heilen. Nimm sie dir, du hast sie verdient sophorSpongebobLOVE ",
-  "17 tiefe Blicke und 12 mal ein breites Grinsen ^^ "
+  "17 tiefe Blicke und 12 mal ein breites Grinsen ^^ ",
+  "eine Möglichkeit zum Katze streicheln ;) ",
+  "einen Charakter in meinem Sims-Haus. Schau ma mal was wir für unanständige Dinge treiben ;) ",
 ];
 const momGift = "Liebe von der coolsten Mom überhaupt sophorKaffee ";
 
