@@ -84,6 +84,10 @@ const gifts = [
   "17 tiefe Blicke und 12 mal ein breites Grinsen ^^ ",
   "eine Möglichkeit zum Katze streicheln ;) ",
   "einen Charakter in meinem Sims-Haus. Schau ma mal was wir für unanständige Dinge treiben ;) ",
+  "einen Filmeabend. Perfekt zum Kuscheln sophorSpongebobLOVE ",
+  "ein kleines Hasi in Minecraft. Passt perfekt zu dir du Rammler <3 ",
+  "eine Kleinigkeiten zum Naschen. Dabei bist du doch eh schon so ein Snack ;) ",
+  "ein Tröpfchen deiner Zeit. Mit dir ist halt alles schöner <3 "
 ];
 const momGift = "Liebe von der coolsten Mom überhaupt sophorKaffee ";
 
